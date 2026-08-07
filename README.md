@@ -49,15 +49,12 @@ graph TD
 
 ```text
 .
-├── firmware/
-│   └── NeuralGrid.ino      # MCU Controller (C++)
-├── mpu_engine/
-│   ├── main.py             # Intelligence Engine (Python)
-│   ├── weights.pkl         # Trained NN Weights
-│   └── scaler.pkl          # Feature Scaler Parameters
-├── docs/                   # Architecture & IPC Documentation
-├── scripts/                # Utility scripts for deployment
-└── README.md               # System Overview
+
+├── docs/                       # Architecture & IPC Documentation
+│   ├── ai_pipline.md           # Intelligence Engine (Python)
+│   └── ipu_architecture.md 
+└── README.md                   # System Overview
+└── License                     # MIT License
 ```
 
 ---
